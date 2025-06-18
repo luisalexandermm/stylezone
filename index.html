@@ -107,7 +107,13 @@
                            <label for="archivo">subir archivo:</label>
                            <input type="file" id="archivo" multiple accept=".pdf,.doc,.png" name="archivo" placeholder="ingrese el archivo" required>
                            <br><br>
-                           <input type="submit" value="enviar" required>
+                           <label for="revisar">de acuerdo</label>
+                           <input type="checkbox" name="revisar" id="revisar" required>
+                           <br><br>
+                           <label for="rango">rango de edad</label>
+                           <input type="range" id="rango" name="rango" min="18" max="100">
+                           <br><br>
+                           <input type="submit" value="enviar" style="background-color: darkgreen;" required>
                          </form>
     </body> 
 </html> 
